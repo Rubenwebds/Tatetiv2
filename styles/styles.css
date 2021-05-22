@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #011f1a;
+    background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23000000' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.bandes {
+width: 50px;
+height: 50px;
+justify-content: space-between;
+align-items: center;
+}
+
+
+
+button {
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin:  0 auto;
+    padding-top: 10px;
+    cursor: pointer;
+
+}
+
+
+
+
+.boton {
+font-size: 150px;
+font-family: 'Luckiest Guy', cursive;
+color: #008F7A;
+text-shadow: 3px 3px 4px  rgb(39, 38, 38);
+background-color: beige
+}
+
+
+.conteiner :hover{
+filter: sepia(60%);
+}
+
+
+
+
+.resetear {
+    display: flex;
+    margin: 0 auto;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 3px 3px 4px  rgb(39, 38, 38);
+    background-color: #008F7A;
+    color: rgb(255, 255, 255);
+}
+
+.pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Luckiest Guy', cursive;
+    color: #008F7A;
+    text-shadow: 3px 3px 4px  rgb(39, 38, 38);
+    padding-top: 10px;
+}
+
+
+
